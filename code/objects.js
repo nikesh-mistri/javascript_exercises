@@ -56,9 +56,9 @@ console.log(tortoise)
  * Q4. How many different colours is Poppy?
  */
 
-dogColourCount = dog
+dogColourCount = dog.colours.length
 
- console.log("The dog has " + dogColourCount + " different colours");
+console.log("The dog has " + dogColourCount + " different colours");
 
 
 
@@ -80,7 +80,7 @@ parrot = {
 /**
  * Q6. Ella's favourite food is dandelion, add this information to her object
  */
-tortoise
+tortoise.food = "Dandelion"
 console.log(tortoise);
 
 
@@ -98,5 +98,5 @@ console.log("The total age of the pets is " + totalPetAge);
 /**
  * Q8. It's turns out that Morris isn't a European Shorthair. We don't actually know his real breed, so remove that key from his object
  */
-
-// console.log(cat);
+delete cat.breed
+console.log(cat);
